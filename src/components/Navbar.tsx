@@ -35,9 +35,12 @@ export function Navbar() {
             Mr Woody
           </span>
         </a>  */}
-
-        <a href="#" className="flex items-center gap-2 group" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>
-  <img src="/images/logo.jpg" alt="Mr Woody" className="h-12 w-auto" />
+<a href="#" className="flex items-center gap-2 group" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>
+  <img 
+    src="/images/logo.jpg" 
+    alt="Mr Woody" 
+    className="h-12 w-12 rounded-full object-cover shadow-md" 
+  />
 </a>
 
         {/* Desktop Nav */}
