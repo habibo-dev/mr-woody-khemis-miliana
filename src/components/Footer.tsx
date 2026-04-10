@@ -9,9 +9,13 @@ export function Footer() {
           {/* Brand */}
           <div className="space-y-6">
             <div className="flex items-center gap-2">
-              <div className="bg-primary text-white w-10 h-10 rounded-xl flex items-center justify-center font-display font-black text-xl">
-                W
-              </div>
+              <a href="#" className="flex items-center gap-2 group" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>
+                <img 
+                  src="/images/logo.jpg" 
+                  alt="Mr Woody" 
+                  className="h-12 w-12 rounded-full object-cover shadow-md" 
+                />
+              </a>
               <span className="font-display font-black text-2xl tracking-tight">
                 Mr Woody
               </span>
