@@ -41,6 +41,12 @@ export function Navbar() {
     alt="Mr Woody" 
     className="h-12 w-12 rounded-full object-cover shadow-md" 
   />
+   <span className={cn(
+            "font-display font-black text-2xl tracking-tight transition-colors",
+            isScrolled ? "text-secondary" : "text-white"
+          )}>
+            Mr Woody
+          </span>
 </a>
 
         {/* Desktop Nav */}
