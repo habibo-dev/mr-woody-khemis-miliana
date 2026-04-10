@@ -23,9 +23,9 @@ export function Navbar() {
     >
       <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
         {/* Logo */ }
-         <a href="#" className="flex items-center gap-2 group">
+         {/* <a href="#" className="flex items-center gap-2 group">
           <div className="bg-primary text-white w-10 h-10 rounded-xl flex items-center justify-center font-display font-black text-xl shadow-lg group-hover:scale-105 transition-transform">
-             <img src="/images/logo.jpg" alt="Mr Woody" className="h-12 w-auto" />
+             
           </div>
 
           <span className={cn(
@@ -34,7 +34,11 @@ export function Navbar() {
           )}>
             Mr Woody
           </span>
-        </a> 
+        </a>  */}
+
+        <a href="#" className="flex items-center gap-2 group" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>
+  <img src="/images/logo.jpg" alt="Mr Woody" className="h-12 w-auto" />
+</a>
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-8">
