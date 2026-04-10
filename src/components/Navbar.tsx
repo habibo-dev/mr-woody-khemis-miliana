@@ -22,19 +22,20 @@ export function Navbar() {
       )}
     >
       <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
-        {/* Logo */}
-        {/* <a href="#" className="flex items-center gap-2 group">
-          <div className="bg-primary text-white w-10 h-10 rounded-xl flex items-center justify-center font-display font-black text-xl shadow-lg group-hover:scale-105 transition-transform">
+        {/* Logo */ }
+         <a href="#" className="flex items-center gap-2 group">
+          {/* <div className="bg-primary text-white w-10 h-10 rounded-xl flex items-center justify-center font-display font-black text-xl shadow-lg group-hover:scale-105 transition-transform">
             W
-          </div>
+          </div> */}
+             <img src="/images/logo.png" alt="Mr Woody" className="h-12 w-auto" />
+
           <span className={cn(
             "font-display font-black text-2xl tracking-tight transition-colors",
             isScrolled ? "text-secondary" : "text-white"
           )}>
             Mr Woody
           </span>
-        </a> */}
-  <img src="/images/logo.png" alt="Mr Woody" className="h-12 w-auto" />
+        </a> 
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-8">
